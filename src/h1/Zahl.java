@@ -6,13 +6,6 @@ public class Zahl {
 	boolean positive;
 	int num;
 	
-	public Zahl(int pNum) {
-		num = pNum;
-		setEven();
-		setSmall();
-		setPositive();
-	}
-	
 	public void setEven() {
 		if(num % 2 == 0) even = true;
 		else even = false;
