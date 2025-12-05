@@ -1,8 +1,8 @@
 package h3;
 
 public class Mensch {
-	String name;
-	int gebJahr;
+	String name = "Bastian";
+	int gebJahr = 2007;
 	int alter;
 	
 	
